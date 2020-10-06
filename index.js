@@ -260,8 +260,10 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(sodas){
         /*add your code here*/
+  for(let i = sodas; sodas > 0; i--){
         return `${sodas} bottles of soda on the wall, ${sodas} bottles of soda, take one down pass it around ${sodas - 1} bottles of soda on the wall`;
   }
+}
 console.log(annoyingSong(1));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
